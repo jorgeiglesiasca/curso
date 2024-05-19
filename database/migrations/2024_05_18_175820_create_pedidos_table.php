@@ -21,6 +21,8 @@ return new class extends Migration
             $table->text('notas')->nullable();
             $table->boolean('volado')->nullable()->default(false);
             $table->boolean('exclusivo')->nullable()->default(false);
+            $table->string('ciudad')->nullable();
+
         });
     }
 
