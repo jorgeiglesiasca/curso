@@ -14,6 +14,11 @@ return new class extends Migration
         Schema::create('pedidos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->codigo();
+            $table->nombre();
+            $table->numpax();
+            $table->telefono();
+            
         });
     }
 
